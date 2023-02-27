@@ -22,7 +22,7 @@ MYSQL<br>
    SELECT<br>
    CONCAT<br>
    LEFT JOIN<br>
-   ID<br><br>
+   ID<br>
    FK<br>
 <br>
 // -----------------------------<br>
