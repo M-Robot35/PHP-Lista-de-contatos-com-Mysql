@@ -27,7 +27,7 @@ require_once('config.php')
             <div class="col bg-dark text-white p-2">
                 <div class="d-flex align-items-center">
                     <img src="assets/favicon.png" alt="PHP PDO Contactos" width="30px" class="img-fluid me-3">
-                    <h3 class="m-0 p-0">CONTACTOS</h3>
+                    <h3 class="m-0 p-0">CONTACTOS | Thiago Teles</h3>
                 </div>
             </div>
         </div>
