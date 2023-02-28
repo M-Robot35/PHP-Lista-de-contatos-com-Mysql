@@ -5,8 +5,10 @@ require_once('header.php');
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $nome= $_POST['text_nome'];
     $telefone= $_POST['text_telefone'];
-        
+    
+    //====================================================
     // verificar se o usuario já existe na base de dados    
+    //====================================================
    $parametros = [
     ":nome" => $nome 
    ];

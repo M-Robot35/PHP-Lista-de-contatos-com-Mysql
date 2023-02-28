@@ -6,7 +6,6 @@ use sys4soft\Database;
 // Cria sessão para cada usuario  / Global - Header
 // ==============================================
 session_start();
-session_unset();
 
 require_once('libraries/Database.php');
 

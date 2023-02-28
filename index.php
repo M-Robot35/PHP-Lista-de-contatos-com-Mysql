@@ -2,7 +2,6 @@
 
 use sys4soft\Database;
 
-
 require_once('libraries/Database.php');
 
 require_once('header.php');
