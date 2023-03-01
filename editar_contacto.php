@@ -4,7 +4,6 @@ require_once('header.php');
 $total_count = 0;
 $erro= null;
 
-
 // ======================================================
 // Atualiza o usuario e redireciona ao index
 // ======================================================
@@ -32,19 +31,11 @@ if($_SERVER['REQUEST_METHOD']== "POST"){
     
     $query= "UPDATE contactos SET nome =:nome,  telefone= :telefone, updated_at= NOW() WHERE id= :id";
     $result= $connect->execute_non_query($query,$params);
-    echo "sucess";
-}
-
-
-// ======================================================
-// REDIRECIONA CASO ID ESTIVER VAZIO OU  NÃO HAVER KEY ID
-// ======================================================
-if(!key_exists('id', $_GET ) || empty($_GET['id']) ){
-    header('Location: index.php');
+    
 }
 
 // =======================================
-// Capturar Parametros da Url
+// REDIRECIONA CASO ID ESTIVER VAZIO OU  NÃO HAVER KEY ID
 // ========================================
 if(key_exists('id', $_GET ) || !empty($_GET['id'])){  
 
